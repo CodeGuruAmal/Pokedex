@@ -2,13 +2,13 @@ import React from "react";
 
 const SearchBar = () => {
   return (
-    <div className="fixed z-10 left-[58%] top-5 -translate-x-1/2 flex items-center gap-1">
+    <div className="fixed z-10 max-[592px]:left-[64%] left-[53%] top-5 -translate-x-1/2 flex items-center gap-1">
       <input
-        className="rounded-md shadow-custom px-3 bg-[#f4f4f4] py-4 outline-none text-[.6rem] font-[PokemonGb] w-72 max-[592px]:w-64"
+        className="rounded-md shadow-custom px-3 bg-[#f4f4f4] py-4 outline-none text-[.6rem] font-[PokemonGb] w-96 max-[592px]:w-72"
         type="search"
         placeholder="Search your Pokemon"
       />
-      <button className="-ml-14 bg-[#f4f4f4] p-1">
+      <button className="-ml-[2.7rem] bg-[#f4f4f4] p-1">
         <svg
           width="25"
           height="25"

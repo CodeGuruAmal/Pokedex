@@ -23,7 +23,7 @@ const Navbar = () => {
         </a>
       </nav>
 
-      <button className="fixed z-10 p-1 shadow-custom rounded-md bg-[#f4f4f4] md:hidden block top-[1.6rem] left-3 text-xl">
+      <button className="fixed z-10 p-1 shadow-custom rounded-md bg-[#f4f4f4] md:hidden block top-[1.6rem] left-6 text-xl">
         <HiOutlineMenuAlt4 />
       </button>
     </div>
