@@ -2,9 +2,9 @@ import React from "react";
 
 const SearchBar = () => {
   return (
-    <div className="fixed z-10 left-[53%] top-5 -translate-x-1/2 flex items-center gap-1">
+    <div className="fixed z-10 left-[60%] top-5 -translate-x-1/2 flex items-center gap-1">
       <input
-        className="rounded-md shadow-custom px-5 bg-[#f4f4f4] py-4 outline-none text-[.6rem] font-[PokemonGb] w-72 md:w-96"
+        className="rounded-md shadow-custom px-3 bg-[#f4f4f4] py-4 outline-none text-[.6rem] font-[PokemonGb] w-72 max-[592px]:w-64"
         type="search"
         placeholder="Search your Pokemon"
       />
