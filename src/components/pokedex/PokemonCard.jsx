@@ -41,7 +41,7 @@ const PokemonCard = () => {
                         key={index}
                         className="w-6"
                         alt=""
-                        srcSet={`./public/assets/type/${t_item}.svg`}
+                        srcSet={`./assets/type/${t_item}.svg`}
                       />
                     );
                   })}
