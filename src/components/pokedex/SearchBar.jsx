@@ -4,11 +4,11 @@ const SearchBar = () => {
   return (
     <div className="fixed z-10 left-[53%] top-5 -translate-x-1/2 flex items-center gap-1">
       <input
-        className="rounded-md shadow-custom px-5 py-4 outline-none text-[.6rem] font-[PokemonGb] w-72 md:w-96"
+        className="rounded-md shadow-custom px-5 bg-[#f4f4f4] py-4 outline-none text-[.6rem] font-[PokemonGb] w-72 md:w-96"
         type="search"
         placeholder="Search your Pokemon"
       />
-      <button className="-ml-14 bg-white p-1">
+      <button className="-ml-14 bg-[#f4f4f4] p-1">
         <svg
           width="25"
           height="25"
