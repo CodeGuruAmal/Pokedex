@@ -4,7 +4,7 @@ const SearchBar = () => {
   return (
     <div className="fixed z-10 left-[53%] top-5 -translate-x-1/2 flex items-center gap-1">
       <input
-        className="rounded-md shadow-custom px-5 py-3 outline-none text-[.6rem] font-[PokemonGb] w-72 md:w-96"
+        className="rounded-md shadow-custom px-5 py-4 outline-none text-[.6rem] font-[PokemonGb] w-72 md:w-96"
         type="search"
         placeholder="Search your Pokemon"
       />
