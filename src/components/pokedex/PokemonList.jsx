@@ -3,7 +3,7 @@ import PokemonCard from './PokemonCard'
 
 const PokemonList = () => {
   return (
-    <div className='flex w-full min-[592px]:w-[90vw] min-[592px]:absolute right-0 top-16 mx-auto  flex-wrap gap-6 max-[592px]:gap-5 pt-20 justify-center overflow-hidden'><PokemonCard/></div>
+    <div className='flex relative z-5 w-full min-[592px]:w-[90vw] min-[592px]:absolute right-0 top-16 mx-auto min-[592px]:pt-20 p-10 flex-wrap gap-6 max-[592px]:gap-5 justify-center overflow-hidden'><PokemonCard/></div>
   )
 }
 

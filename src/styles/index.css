@@ -23,6 +23,18 @@
     src: url("../../public/fonts/PokemonGB/PokemonGb.ttf");
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f4f4f4;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #F45741;
+    border-radius: 10px;
+  }
 
 body {
     font-family: "Inter-Medium";

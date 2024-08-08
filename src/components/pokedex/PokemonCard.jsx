@@ -23,11 +23,11 @@ const PokemonCard = () => {
         const cardStyle = getGradientStyle(types);
 
         return (
-          <div className="h-48 max-[592px]:h-32" key={index}>
+          <div className="h-48 max-[592px]:h-28" key={index}>
             <div className="w-[12.9rem] max-[592px]:w-[90vw] max-[592px]:h-full bg-[#f4f4f4] max-[592px]:mx-auto max-[592px]:overflow-hidden h-36 shadow-custom px-4 py-3 relative rounded-xl">
               <div className="w-full max-[592px]:w-[40vw] absolute top-0 right-0 z-1 h-1/2 max-[592px]:h-full rounded-lg" style={cardStyle}></div>
               <div className="flex items-center relative z-5 text-white justify-between">
-                <h1 className="max-[592px]:text-black text-xs">#{p_item.id.toString().padStart(3, "0")}</h1>
+                <h1 className="max-[592px]:text-[#F45741] text-xs">#{p_item.id.toString().padStart(3, "0")}</h1>
                   <FaHeart />
               </div>
 
