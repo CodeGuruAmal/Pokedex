@@ -32,7 +32,7 @@ const PokemonCard = () => {
               </div>
 
               <div className="flex max-[592px]:flex-row max-[592px]:items-center flex-col-reverse h-4/5 justify-between max-[592px]:w-[90%] max-[592px]:absolute max-[592px]:px-3  top-3">
-                <div className="detail flex max-[592px]:flex-row flex-col gap-1 max-[592px]:justify-between items-center max-[592px]:text-[3.1vw] text-lg">
+                <div className="detail flex max-[592px]:flex-row flex-col gap-1 max-[592px]:justify-between items-center max-[592px]:text-sm text-lg">
                   <h1 className="capitalize">{p_item.name}</h1>
                   <div className="type flex gap-2">
                   {types.map((t_item, index) => {
