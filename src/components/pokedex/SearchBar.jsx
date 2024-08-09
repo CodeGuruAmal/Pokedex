@@ -8,7 +8,7 @@ const SearchBar = () => {
         type="search"
         placeholder="Search your Pokemon"
       />
-      <button className="-ml-[2.7rem] bg-[#f4f4f4] p-1">
+      <button className="-ml-[2.6rem] bg-[#f4f4f4] p-1">
         <svg
           width="25"
           height="25"
